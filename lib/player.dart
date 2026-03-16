@@ -8,10 +8,10 @@ class Player extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      alignment: Alignment(0, circleY),
-      child: Image.asset(
+        alignment: Alignment(0, circleY),
+        child: Image.asset(
           'lib/images/player.png',
           width: 50,
-        ),);
+        ));
   }
 }
