@@ -1,4 +1,4 @@
-package com.example.flutter_demo
+package app.gerel.flappy_slime
 
 import io.flutter.embedding.android.FlutterActivity
 

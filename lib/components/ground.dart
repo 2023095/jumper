@@ -1,10 +1,11 @@
 import 'dart:async';
 import 'package:flame/collisions.dart';
 import 'package:flame/components.dart';
-import 'package:flutter_demo/constants.dart';
-import 'package:flutter_demo/game.dart';
+import 'package:Flappy_Slime/constants.dart';
+import 'package:Flappy_Slime/game.dart';
 
-class Ground extends SpriteComponent with HasGameRef<Jumper>, CollisionCallbacks {
+class Ground extends SpriteComponent
+    with HasGameRef<Jumper>, CollisionCallbacks {
   Ground() : super();
 
   @override
@@ -19,6 +20,8 @@ class Ground extends SpriteComponent with HasGameRef<Jumper>, CollisionCallbacks
 
   @override
   void update(double dt) {
+    if (!gameRef.isStarted) return;
+
     position.x -= groundScrollingSpeed * dt;
 
     if (position.x + size.x / 2 <= 0) {

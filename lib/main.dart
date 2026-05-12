@@ -1,6 +1,6 @@
 import 'package:flame/game.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_demo/game.dart';
+import 'package:Flappy_Slime/game.dart';
 
 void main() {
   runApp(const MyApp());

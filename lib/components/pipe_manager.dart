@@ -1,14 +1,16 @@
 import 'dart:math';
 import 'package:flame/components.dart';
-import 'package:flutter_demo/components/pipe.dart';
-import 'package:flutter_demo/constants.dart';
-import 'package:flutter_demo/game.dart';
+import 'package:Flappy_Slime/components/pipe.dart';
+import 'package:Flappy_Slime/constants.dart';
+import 'package:Flappy_Slime/game.dart';
 
 class PipeManager extends Component with HasGameRef<Jumper>{
   double pipeSpawnTimer = 0;
 
   @override
   void update(double dt) {
+    if (!gameRef.isStarted) return;
+
     pipeSpawnTimer += dt;
 
     if (pipeSpawnTimer > pipeInterval) {
