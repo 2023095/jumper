@@ -8,7 +8,7 @@
 > A side-scrolling jumper game built with Flutter & Flame Engine - tap to jump, avoid pipes, and beat your high score!
 
 ![Gameplay Demo](https://via.placeholder.com/800x400?text=Jumper+Game+Screenshot)
-*[![alt text](Screenshot_1775706005.png)Add your actual game screenshot here]*
+*[![alt text](Screenshot_1775706005.png)]*
 
 ## 🎮 About The Project
 
