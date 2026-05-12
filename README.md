@@ -1,26 +1,23 @@
-# 🦘 Jumper Game
+# Jumper Game
 
 [![Flutter](https://img.shields.io/badge/Flutter-3.16+-blue.svg)](https://flutter.dev)
 [![Flame](https://img.shields.io/badge/Flame-1.11+-orange.svg)](https://flame-engine.org)
 [![Dart](https://img.shields.io/badge/Dart-3.0+-teal.svg)](https://dart.dev)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-iOS%20%7C%20Android-lightgrey)]()
 
 > A side-scrolling jumper game built with Flutter & Flame Engine - tap to jump, avoid pipes, and beat your high score!
 
 ![Gameplay Demo](https://via.placeholder.com/800x400?text=Jumper+Game+Screenshot)
-*[Add your actual game screenshot here]*
+*[![alt text](Screenshot_1775706005.png)Add your actual game screenshot here]*
 
 ## 🎮 About The Project
 
 **Jumper** is an addictive endless runner game where you control a character navigating through procedurally generated pipes. Built entirely with Flutter and the Flame game engine, it demonstrates real-time collision detection, infinite scrolling mechanics, and responsive touch controls.
 
 ### Technical Highlights
-- ⚡ Real-time game loop at 60 FPS
-- 🎯 Pixel-perfect collision detection
+- ⚡ Real-time game loop
 - ♾️ Endless procedural level generation
 - 📱 Cross-platform (iOS & Android)
-- 🎨 Custom sprite rendering
 
 ## 🛠️ Built With
 
@@ -39,7 +36,6 @@
 - **Collision Detection** - Real-time hitbox detection for ground and pipes
 - **Game States** - Start screen, active gameplay, and game over states
 - **Responsive Controls** - Tap anywhere to jump
-- **Visual Feedback** - Animated sprites and UI overlays
 
 ## 📸 Visual Preview
 
